@@ -1,0 +1,88 @@
+body{
+background-color: #fff;
+width: 1200px; 
+font-size: 16px;
+line-height: 22px;
+font-family: 'Roboto', sans-serif;
+}
+.clearfix{
+content: "";
+display: table;
+clear: both;
+}
+.header{
+width: 1200px;
+background-color:#eee;
+padding-top: 25px;
+}
+.container{
+	width: 880px;
+	margin: 0 auto;
+	font-size: 0;
+	box-sizing: border-box;
+}
+.logo-header{
+	float: left;
+	margin-left: 10px;
+}
+.main-navigation{
+	float: left;
+	margin-left: 160px;
+	margin-top: 26px;
+	max-width: 420px;
+	}
+.main-navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+.main-navigation li {
+   display: inline-block;
+  font-size: 14px;
+  line-height: 34px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+.main-navigation li a{
+	text-align: right;
+}
+.main-navigation ul li:last-child{
+	margin-right: 0;
+}
+ .header a{ 
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.bascket{
+font-size: 14px;
+line-height: 34px;
+float: right;
+margin-right: 10px;
+/*width: 110px;
+*/margin-top: 26px; 
+}
+
+.header li a:hover,
+.bascket:hover a,
+.bascket:hover i{
+	color: #fb565a;
+	border-bottom:2px solid #fb565a;
+}
+.main-navigation ul a:active,
+.bascket:active a,
+.bascket:active i{
+	color: #bdbdbd;
+}
+.icon-basket { 
+	color: #bdbdbd;
+	padding: 5px;
+	font-size:16px;
+ }
+
+.header li a:hover{
+	border-bottom:2px solid #fb565a;
+}
+
+

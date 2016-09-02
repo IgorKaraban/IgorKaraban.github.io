@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	
+	<link href=<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="font/symbols-nerds.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Магазин</title>
+</head>
+<body>
+
+
+<div class="header">
+
+<div class="container clearfix">
+
+<a href="index.html">
+	<img src="img/logo.png" alt="logo" width="140" height="60" class="logo-header">
+</a>
+
+<nav class="main-navigation">
+	<ul>
+		<li> 
+		<a href="index.html" class="menu-item">Студия</a>
+		</li>
+		<li>
+		 <a href="#" class="menu-item">Клиенты</a>
+		 </li>
+		<li> 
+		<a href="catalog.html" class="menu-item current">Магазин</a>
+		</li>
+		<li> 
+		<a href="#" class="menu-item">Контакты</a>
+		</li>
+	</ul>
+</nav>
+
+<div class="bascket">
+<a href="#" class="menu-item"><i class="icon-basket"></i>Корзина</a>
+</div>
+
+</div>
+
+
+<div class="welcome">
+		<div class="welcome-catalog">Добро пожаловать в магазин готовых макетов</div>
+</div>
+</div>
+		
+<div class="catalog-container">
+	<form class="catalog-form" method="post" action="#">
+
+		<div class="form-title">стоимость:</div>
+		<div class="range-filter">
+            <div class="range-controls">
+                <div class="scale">
+                <div style="margin-left:50px;width:100px;" class="bar"></div>
+                </div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
+            </div>
+            <div class="price-controls">
+                от <input class="min-price" type="text" value="5 000">
+                до <input class="max-price" type="text" value="15 000">
+            </div>
+        </div>
+
+
+		<div class="form-title">сетка:</div>
+		<div class="grid">
+		<input type="radio" id="radio-1" name="grid" value="Адаптативная" checked>
+		<label for="radio-1">Адаптативная<br></label>
+		<input type="radio" id="radio-2" name="grid" value="Фиксированная">
+		<label for="radio-2">Фиксированная<br></label>
+		<input type="radio" id="radio-3" name="grid" value="Резиновая">
+		<label for="radio-3">Резиновая<br></label>
+		</div>
+
+		<div class="form-title">особенности:</div>
+		<div class="form-features">
+		<input type="checkbox" id="check-1" name="features" value="Слайдер" checked>
+		<label for="check-1">Слайдер<br></label>
+		<input type="checkbox" id="check-2"  name="features" value="Блок приемуществ">
+		<label for="check-2">Блок приемуществ<br></label>
+		<input type="checkbox" id="check-3"  name="features" value="Новости" checked>	
+		<label for="check-3">Новости<br></label>
+		<input type="checkbox" id="check-4"  name="features" value="Галерея">	
+		<label for="check-4">Галерея<br></label>
+		<input type="checkbox" id="check-5"  name="features" value="Корзина">
+		<label for="check-5">Корзина<br></label>
+		</div>		
+
+	</form>
+	<div class="catalog-content">
+		<div class="catalog-filter clearfix">
+			<div class="catalog-filter-wrapper">
+			<div class="catalog-filter-title">сортировать:</div>
+			<ul class="catalog-filter-parameters">
+				<a href="#"><li>по цене</li></a>
+				<a href="#"><li>по типу</li></a>
+				<a href="#"><li>по функционалу</li></a>	
+			</ul>
+			<div class="arrows">
+				<div class="down"><i class="icon-down-dir active"></i></div>
+				<div class="up"><i class="icon-up-dir"></i></div>
+			</div>
+		</div>
+		</div>
+
+		<div class="catalog-content">
+		<div class="cat-img">
+			<div class="beforet">
+				<ul class="head-img">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="cat-img-hover">
+				<p class="cat-img-hover-title">sunset</p>
+				<p class="cat-img-hover-description">Интернет-магазин с личным кабинетом</p>
+				<a href="#">10 000 Р.</a>
+			</div>
+			<img src="img/cat-img-1.png" alt="img-1" width="240" height="240">
+			</div>
+			<div class="cat-img">
+			<div class="before">
+				<ul class="head-img">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="cat-img-hover">
+				<p class="cat-img-hover-title">sunset</p>
+				<p class="cat-img-hover-description">Интернет-магазин с личным кабинетом</p>
+				<a href="#">10 000 Р.</a>
+			</div>
+			<img src="img/cat-img-2.png" alt="img-1" width="240" height="240">
+			</div>
+			<div class="cat-img">
+			<div class="before">
+				<ul class="head-img">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="cat-img-hover">
+				<p class="cat-img-hover-title">sunset</p>
+				<p class="cat-img-hover-description">Интернет-магазин с личным кабинетом</p>
+				<a href="#">10 000 Р.</a>
+			</div>
+			<img src="img/cat-img-3.png" alt="img-1" width="240" height="240">
+			</div>
+			<div class="cat-img">
+			<div class="before">
+				<ul class="head-img">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="cat-img-hover">
+				<p class="cat-img-hover-title">sunset</p>
+				<p class="cat-img-hover-description">Интернет-магазин с личным кабинетом</p>
+				<a href="#">10 000 Р.</a>
+			</div>
+			<img src="img/cat-img-4.png" alt="img-1" width="240" height="240">
+			</div>
+			<div class="cat-img">
+			<div class="before">
+				<ul class="head-img">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="cat-img-hover">
+				<p class="cat-img-hover-title">sunset</p>
+				<p class="cat-img-hover-description">Интернет-магазин с личным кабинетом</p>
+				<a href="#">10 000 Р.</a>
+			</div>
+			<img src="img/cat-img-5.png" alt="img-1" width="240" height="240">
+			</div>
+			<div class="cat-img">
+			<div class="before">
+				<ul class="head-img">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="cat-img-hover">
+				<p class="cat-img-hover-title">sunset</p>
+				<p class="cat-img-hover-description">Интернет-магазин с личным кабинетом</p>
+				<a href="#">10 000 Р.</a>
+			</div>
+			<img src="img/cat-img-6.png" alt="img-1" width="240" height="240">
+			</div>
+		</div>
+		<div class="paginator">
+            <a href="#1">1</a>
+            <a href="#2">2</a>
+            <a href="#3">3</a>
+            <a href="#next" class="next">следующая</a>
+        </div>
+	</div>
+
+</div>
+
+
+<div class="geo">
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9414.634589626537!2d27.647140898077147!3d53.84893498195554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40d90d34fd86233f!2z0JDQstGC0L7QsdGD0YHQvdGL0Lkg0L_QsNGA0Log4oSWIDY!5e0!3m2!1sru!2sru!4v1470376840226" width="1200" height="416" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+	<div class="address">
+
+		<p class="address-title"><span class="span-nerds">nёrds</span> design studio</p>
+		<p>350000, Краснодар, ул.Головатого, 100</p>
+		<p>тел. +7(861) 275-75-75</p>
+		<a href="#" class="write-us">Напишите нам</a>
+		</div>
+	<div class="circle"></div>
+		</div>
+
+<footer class="main-footer clearfix">
+	<div class="social-logo">
+		<a href="#" class=""><i class="icon-vk social-btn"></i>
+		</a>
+		<a href="#" class=""><i class="icon-facebook social-btn"></i>
+		</a>
+		<a href="#" class=""><i class="icon-instagramm social-btn"></i>
+		</a>
+	</div>
+	<div class="discount">
+		<div class="text"><span class="fr">Давайте дружить, это выгодно!
+		</span></div>
+		<div class="text">Скидка 10% для друзей из социальных сетей.</div>
+	</div>
+</footer>
+</body>
+</html>
