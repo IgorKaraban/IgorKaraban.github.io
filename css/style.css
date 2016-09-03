@@ -20,38 +20,38 @@
   }
 }
 */
- 
+
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "symbols-nerds";
   font-style: normal;
   font-weight: normal;
   speak: none;
- 
+
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
    /*opacity: .8; */
- 
+
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-     
+
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
- 
+
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
   margin-left: .2em;
- 
+
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
- 
+
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
+
 .icon-basket:before { content: '\62'; } /* 'b' */
 .icon-facebook:before { content: '\66'; } /* 'f' */
 .icon-twitter:before { content: '\74'; } /* 't' */
@@ -65,7 +65,7 @@
 .icon-instagramm:before { content: '📷'; } /* '\1f4f7' */
 body{
 background-color: #fff;
-width: 1200px; 
+width: 1200px;
 font-size: 16px;
 line-height: 22px;
 font-family: 'Roboto', sans-serif;
@@ -118,7 +118,7 @@ margin-bottom: 80px;
 .main-navigation ul li:last-child{
 	margin-right: 0;
 }
- .header a{ 
+ .header a{
   text-decoration: none;
   color: #000;
   font-weight: bold;
@@ -129,9 +129,9 @@ font-size: 14px;
 line-height: 34px;
 float: right;
 margin-right: 10px;
-margin-top: 26px; 
+margin-top: 26px;
 }
-.icon-basket { 
+.icon-basket {
 	color: #bdbdbd;
 	padding: 5px;
 	font-size:16px;
@@ -153,7 +153,7 @@ margin-top: 26px;
 
 }
 
- 
+
 
 .slider{
 	position: relative;
@@ -232,21 +232,21 @@ background-color: #d6494d;
 background-color: #b63538;
 }
 .slide:nth-child(1){
-	background-image:url("../img/slider-img1.png"); 
+	background-image:url("../img/slider-img1.png");
 	background-repeat: no-repeat;
 	background-position: 100% 10px;
 	}
 	.slide{
 		display: none;
 	}
-	
+
 	.slide:nth-child(2){
-	background-image:url("../img/slider-img2.png"); 
+	background-image:url("../img/slider-img2.png");
 	background-repeat: no-repeat;
 	background-position: 100% 10px;
 	}
 	.slide:nth-child(3){
-	background-image:url("../img/slider-img3.png"); 
+	background-image:url("../img/slider-img3.png");
 	background-repeat: no-repeat;
 	background-position: 100% 0;
 	}
@@ -265,7 +265,7 @@ background-color: #b63538;
   max-width: 900px;
   padding-bottom: 80px;
   border-bottom: 2px solid #eee;
-	margin-bottom: 60px; 
+	margin-bottom: 60px;
 }
 .features{
 	float: left;
@@ -303,12 +303,12 @@ line-height: 22px;
 	color:white;
 	text-align: center;
 	padding: 10px;
-	border-radius: 3px; 
+	border-radius: 3px;
 	text-transform: uppercase;
 	font-size: 12px;
 	line-height: 18px;
 	max-width: 120px;
-	
+
 }
 .red{
 	background-color: #fb565a;
@@ -341,7 +341,7 @@ background-color: #c09b24;
 	max-width: 880px;
 	margin: 0 auto;
 	height: 413px;
-	padding:0 10px; 
+	padding:0 10px;
 	font-size: 0;
 	border-bottom: 2px solid #eee;
 }
@@ -362,7 +362,7 @@ margin-bottom: 55px;
 	height: 100%;
 	width: 240px;
 	text-align: center;
-	
+
 }
 .about-title{
 	font-size: 36px;
@@ -383,7 +383,7 @@ margin-bottom: 55px;
 	line-height: 16px;
 	display: inline;
 	margin: 0;
-	padding:0 15px; 
+	padding:0 15px;
 	position: relative;
 	z-index: 2;
 	text-decoration: none;
@@ -411,7 +411,7 @@ padding: 0;
 	float: right;
 	height: 100%;
 	width: 240px;
-	margin-right:0; 
+	margin-right:0;
 }
 .about-bottom ul{
 	margin: 0;
@@ -424,7 +424,7 @@ padding: 0;
 	font-size: 16px;
 	line-height: 22px;
 	padding-left:35px;
-	margin-top: 20px; 
+	margin-top: 20px;
 	position: relative;
 }
 .about-container li::before{
@@ -506,7 +506,7 @@ margin-bottom: 80px;
 	background-color: #fb565a;
 	text-align: center;
 	padding: 10px 40px;
-	border-radius: 3px; 
+	border-radius: 3px;
 	text-transform: uppercase;
 	font-size: 12px;
 	line-height: 18px;
@@ -518,7 +518,7 @@ margin-bottom: 80px;
 	width: 231px;
 	height: 190px;
 	position: absolute;
-	top:113px; 
+	top:113px;
 	right: 128px;
 	background:url("../img/point-logo.png") no-repeat center;
 	}
@@ -543,10 +543,10 @@ margin-bottom: 80px;
 		margin-right: 20px;
 				}
 			.social-btn:hover{
-			background-color: #fb565a;	
+			background-color: #fb565a;
 			}
 			.social-btn:active{
-			background-color: #d6494d;	
+			background-color: #d6494d;
 			}
 		.social-btn:nth-of-type(2){
 			margin-right: 0;
@@ -557,7 +557,7 @@ margin-bottom: 80px;
 			color: #283136;
 			padding-top: 15px;
 			/*padding-left: 50px;*/
-			width: 65%;	
+			width: 65%;
 		}
 		.fr{
 			font-size:36px;
@@ -566,7 +566,7 @@ margin-bottom: 80px;
 		.text{
 			display: inline-block;
 		}
-		
+
 	.welcome{
 	position: relative;
 	margin: 0 auto;
@@ -673,7 +673,7 @@ float: left;
 	color: black;
 	/*outline: 1px solid black;*/
 	text-transform: uppercase;
-	padding-left: 30px; 
+	padding-left: 30px;
 	margin-bottom: 23px;
 	vertical-align: bottom;
 }
@@ -703,7 +703,7 @@ input[type="checkbox"]
 	text-transform: uppercase;
 	float: left;
 	/*margin-top:-16px; */
-	/*padding-left: 30px; 
+	/*padding-left: 30px;
 	margin-bottom: 23px;
 	vertical-align: bottom;*/
 }
@@ -715,12 +715,12 @@ ul.catalog-filter-parameters{
 	/*padding-left: 40px;*/
 	max-width: 370px;
 
-	
+
 }
 .catalog-filter-parameters{
 	float: left;
 	/*outline: 1px solid red;*/
-	margin:0; 
+	margin:0;
 	}
 	.catalog-filter-parameters a{
 		text-align: center;
@@ -783,16 +783,16 @@ display: inline-block;
   .arrows .active
        {
  	color:#00ca74;
- 	
+
  	 }
- 
+
 
 	.before{
 		/*outline: 1px solid red;*/
 		display: inline-block;
 		/*margin-right: 75px;*/
 	}
-	
+
 	ul.head-img{
 		margin: 0;
 		padding: 0;
@@ -803,7 +803,7 @@ display: inline-block;
 		border-radius: 3px 3px 0 0;
 		padding-left: 12px;
 		/*font-size: 0;*/
-		
+
 	}
 	.before:nth-child(2n){
 		margin-right: 0px;
@@ -837,7 +837,7 @@ display: inline-block;
 		position: absolute;
 		top: 50px;
 		left: 20px;
-		background-color: white;	
+		background-color: white;
 		text-align: center;
 		display: none;
 	}
@@ -859,7 +859,7 @@ display: inline-block;
 	color:white;
 	text-align: center;
 	padding: 10px;
-	border-radius: 3px; 
+	border-radius: 3px;
 	text-transform: uppercase;
 	font-size: 18px;
 	line-height: 9px;
@@ -902,10 +902,10 @@ display: inline-block;
 		vertical-align: middle;
 		margin-right: 10px;
 		font-size: 25px;
-		
+
 	}
 	.grid input[type=radio]:checked + label:before{
-			content: '\25cf';
+			content: "\25cf";
 	}
 
 
@@ -930,7 +930,7 @@ display: inline-block;
 		vertical-align: middle;
 		margin-right: 10px;
 		font-size: 25px;
-		
+
 	}
 	.form-features input[type=checkbox]:checked + label:before{
 			content: '\2611';
@@ -990,7 +990,7 @@ font-size: 14px;
 }
 .form-name,
 .form-mail{
-	width: 220px;	
+	width: 220px;
 	}
 .form-name{
 float: left;
@@ -1003,14 +1003,14 @@ float: right;
 	margin-bottom: 20px;
 	box-sizing: border-box;
 }
-input[type="text"]{
+.modal input[type="text"]{
 	width: 200px;
 }
 .form-text .yourText{
-width: 440px;	
+width: 440px;
 height: 100px;
 
-	
+
 }
 .modal label{
 display: block;
